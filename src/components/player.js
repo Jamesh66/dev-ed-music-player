@@ -4,7 +4,6 @@ import {
   faAngleLeft,
   faAngleRight,
   faPause,
-  faDirections,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Player = ({
@@ -33,7 +32,6 @@ const Player = ({
       }
     });
     setSongs(newSongs);
-    console.log("hey from useEffect player.js");
   };
   //Event Handlers
   const playSongHandler = () => {
